@@ -27,7 +27,7 @@ jobs:
       run: |
         mkdir -p fonts/ttf fonts/otf
         
-        # PENTING: Sesuaikan "GLF-Grafem.glyphs" di bawah ini dengan nama file asli Anda jika berbeda
+        # PENTING: Sesuaikan "GLF_Fonem.glyphs" di bawah ini dengan nama file asli Anda jika berbeda
         fontmake -g sources/GLF_Fonem.glyphs -o ttf --output-dir fonts/ttf/
         fontmake -g sources/GLF_Fonem.glyphs -o otf --output-dir fonts/otf/
 
