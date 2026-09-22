@@ -28,8 +28,8 @@ jobs:
         mkdir -p fonts/ttf fonts/otf
         
         # PENTING: Sesuaikan "GLF_Fonem.glyphs" di bawah ini dengan nama file asli Anda jika berbeda
-        fontmake -g sources/GLF_Fonem.glyphs -o ttf --output-dir fonts/ttf/
-        fontmake -g sources/GLF_Fonem.glyphs -o otf --output-dir fonts/otf/
+        fontmake -g Sources/GLF_Fonem.glyphs -o ttf --output-dir fonts/ttf/
+        fontmake -g Sources/GLF_Fonem.glyphs -o otf --output-dir fonts/otf/
 
     - name: Run FontBakery QA Tests
       run: |
