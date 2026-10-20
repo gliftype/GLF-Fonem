@@ -42,3 +42,5 @@ Erwin Wirianata <wirianata.erwin@gmail.com>
 
 # Notes
 This is a beta font with ongoing improvements and fixes. Every update will be published directly to the repository.
+
+https://gliftype.com/
